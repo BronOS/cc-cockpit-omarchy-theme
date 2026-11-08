@@ -1,0 +1,13 @@
+{
+  "id": "bronos.omarchy-theme",
+  "name": "Omarchy Theme",
+  "version": "0.1.0",
+  "api": 1,
+  "main": "dist/host.js",
+  "description": "A cc-cockpit theme that follows your Omarchy desktop theme: switch Omarchy from Tokyo Night to Catppuccin or Rose Pine and the app, its panels and the Claude terminals re-colour at once. Without Omarchy (or on a Mac) it is a Tokyo Night theme.",
+  "author": "Oleg Bronzov",
+  "license": "MIT",
+  "contributes": {
+    "themes": [{ "id": "omarchy", "file": "themes/omarchy.json" }]
+  }
+}

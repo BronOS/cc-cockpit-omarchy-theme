@@ -1,0 +1,6 @@
+{
+  "name": "cc-cockpit-omarchy-theme",
+  "private": true,
+  "description": "Tests for the bronos.omarchy-theme cc-cockpit plugin; the plugin itself needs no install or build.",
+  "scripts": { "test": "node --test test/", "build:theme": "node scripts/build-theme.js" }
+}
